@@ -18,10 +18,12 @@ import jade.content.*;
 import jade.content.lang.*;
 import jade.content.lang.sl.*;
 import jade.content.onto.*;
+import utils.Console;
 
 public class AgenteRealizarDiagostico extends Agent{
 	
 	@Override
     protected void setup() {
+        System.out.println("El agente: " + getAID().getName() + " esta corriendo.");
     }
 }

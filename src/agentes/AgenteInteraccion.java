@@ -19,6 +19,8 @@ import jade.content.*;
 import jade.content.lang.*;
 import jade.content.lang.sl.*;
 import jade.content.onto.*;
+import utils.Console;
+import utils.Messages;
 
 public class AgenteInteraccion extends Agent {
 	
@@ -27,6 +29,10 @@ public class AgenteInteraccion extends Agent {
 	@Override
 	public void setup() {
 		System.out.println("El agente: " + getAID().getName() + " esta corriendo.");
+		Long cedula = Console.getLongFromConsole("Digíte su cedula");
+		ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
+		msg.addReceiver(new AID(Messages.SEARCH_ID_FOR_WELCOME, AID.ISLOCALNAME));
+		msg.setContent(cedula.toString());
 	}
 	
 	 public void buscarAgentesPorServicio() throws FIPAException {

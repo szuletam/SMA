@@ -1,7 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f09e8520-a632-4d0e-830d-3ba9469d4cc7" name="Default Changelist" comment="" />
+    <list default="true" id="f09e8520-a632-4d0e-830d-3ba9469d4cc7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Nutricionista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/Paciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/ActualizarHistoriaClinica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/Bienvenida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/BienvenidaEntregada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/Cita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/CitaCreada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/CrearCita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/Dieta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/HistoriaClinica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/HistoriaClinicaActualizada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/InfoCitaEntregada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/InfoDietaEntregada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/InfoHistoriaClinicaEntregada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/InfoPacienteEntregada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/InfoPosiblesEnfermedadesEntregada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/Nutricionista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/Paciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/PosiblesEnfermedades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/SaludOntology.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/SolicitarBienvenida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/SolicitarDieta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/SolicitarHistoriaClinica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/SolicitarInfoCita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/SolicitarPaciente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ontologia/SolicitarPosiblesEnfermedades.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/Messages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/agentes/AgenteGestionInformacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/agentes/AgenteGestionInformacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/agentes/AgenteInteraccion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/agentes/AgenteInteraccion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/agentes/AgenteRealizarDiagostico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/agentes/AgenteRealizarDiagostico.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,53 +48,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/agentes/AgenteRealizarDiagostico.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/agentes/AgenteInteraccion.java">
+        <entry file="file://$PROJECT_DIR$/src/ontologia/SaludOntology.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="33" column="66" lean-forward="true" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/Console.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/agentes/AgenteManejoCitas.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-              <folding>
-                <element signature="e#686#687#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/agentes/AgenteGestionInformacion.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+            <state relative-caret-position="187">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,27 +74,63 @@
       <find>catalogoPeliculas</find>
       <find>estionar informacion del paciente</find>
       <find>setup()</find>
+      <find>EsperarDatos</find>
       <find>INFORM</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/agentes/AgenteManejoCitas.java" />
-        <option value="$PROJECT_DIR$/src/agentes/AgenteRealizarDiagostico.java" />
-        <option value="$PROJECT_DIR$/src/agentes/AgenteGestionInformacion.java" />
-        <option value="$PROJECT_DIR$/src/agentes/AgenteInteraccion.java" />
         <option value="$PROJECT_DIR$/src/agentes/utils/Consola.java" />
         <option value="$PROJECT_DIR$/src/agentes/utils/Console.java" />
         <option value="$PROJECT_DIR$/src/utils/Console.java" />
+        <option value="$PROJECT_DIR$/src/agentes/AgenteRealizarDiagostico.java" />
+        <option value="$PROJECT_DIR$/src/utils/messages.java" />
+        <option value="$PROJECT_DIR$/src/agentes/AgenteInteraccion.java" />
+        <option value="$PROJECT_DIR$/src/agentes/AgenteGestionInformacion.java" />
+        <option value="$PROJECT_DIR$/src/models/Usuario.java" />
+        <option value="$PROJECT_DIR$/src/models/Paciente.java" />
+        <option value="$PROJECT_DIR$/src/models/Nutricionista.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/Dieta.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/Bienvenida.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/HistoriaClinica.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/Paciente.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/Nutricionista.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/PosiblesEnfermedades.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/Cita.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/BienvenidaEntregada.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/CitaCreada.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/HistoriaClinicaActualizada.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/InfoCitaEntregada.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/InfoDietaEntregada.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/InfoHistoriaClinicaEntregada.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/InfoPacienteEntregada.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/InfoPosiblesEnfermedadesEntregadas.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/InfoPosiblesEnfermedadesEntregada.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/ActualizarHistoriaClinica.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/CrearCita.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/SolicitarBienvenida.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/SolicitarDieta.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/SolicitarHistoriaClinica.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/SolicitarInfoCita.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/SolicitarPosiblesEnfermedades.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/SolicitarPaciente.java" />
+        <option value="$PROJECT_DIR$/src/ontologia/SaludOntology.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="219" />
-    <option name="y" value="-17" />
+    <option name="x" value="190" />
+    <option name="y" value="52" />
     <option name="width" value="982" />
     <option name="height" value="520" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -126,7 +153,13 @@
               <item name="TrabajoFinal" type="b2602c69:ProjectViewProjectNode" />
               <item name="TrabajoFinal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="agentes" type="462c0819:PsiDirectoryNode" />
+              <item name="ontologia" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrabajoFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrabajoFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -137,15 +170,23 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JADE-bin-4.5.0/jade/lib/jade.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ontologias" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ontologia" />
+      <recent name="models" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -163,7 +204,7 @@
     <configuration name="Boot" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jade.Boot" />
       <module name="TrabajoFinal" />
-      <option name="PROGRAM_PARAMETERS" value="-gui -name exodia Interaccion:agentes.AgenteInteraccion();Gestion:agentes.AgenteGestionInformacion();Gestion:agentes.AgenteManejoCitas();Gestion:agentes.AgenteRealizarDiagnostico();" />
+      <option name="PROGRAM_PARAMETERS" value="-gui -name exodia Interaccion:agentes.AgenteInteraccion();Gestion:agentes.AgenteManejoCitas();Gestion:agentes.AgenteRealizarDiagnostico();Gestion:agentes.AgenteGestionInformacion();" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,12 +220,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566174331367</updated>
-      <workItem from="1566174333719" duration="2966000" />
+      <workItem from="1566174333719" duration="13426000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2966000" />
+    <option name="totallyTimeSpent" value="13426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -201,7 +242,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" visible="true" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -225,30 +266,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/agentes/AgenteManejoCitas.java">
+    <entry file="file://$PROJECT_DIR$/src/utils/Messages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding>
-            <element signature="e#686#687#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agentes/AgenteRealizarDiagostico.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/agentes/AgenteGestionInformacion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="66" column="17" lean-forward="true" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="73" lean-forward="true" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
         </state>
       </provider>
     </entry>
@@ -262,10 +283,421 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/agentes/AgenteManejoCitas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+          <folding>
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agentes/AgenteRealizarDiagostico.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/user.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Paciente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Nutricionista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding>
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/agentes/AgenteInteraccion.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="method#buscarAgentesPorServicio#0;class#AgenteInteraccion#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontology.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/agentes/AgenteGestionInformacion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#353#363#0" expanded="true" />
+            <element signature="e#411#421#0" expanded="true" />
+            <element signature="e#2262#2263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/Cita.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding>
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/Bienvenida.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/Dieta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/HistoriaClinica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/Nutricionista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/PosiblesEnfermedades.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/Paciente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/BienvenidaEntregada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/CitaCreada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/HistoriaClinicaActualizada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/InfoCitaEntregada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/InfoDietaEntregada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/InfoHistoriaClinicaEntregada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/InfoPacienteEntregada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="32" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/InfoPosiblesEnfermedadesEntregada.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="33" column="66" lean-forward="true" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/ActualizarHistoriaClinica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="46" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="46" />
+          <folding>
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/CrearCita.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/SolicitarBienvenida.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/SolicitarDieta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/SolicitarHistoriaClinica.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/SolicitarInfoCita.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/SolicitarPosiblesEnfermedades.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/SolicitarPaciente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ontologia/SaludOntology.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
